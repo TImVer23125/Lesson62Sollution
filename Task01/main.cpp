@@ -7,7 +7,6 @@ int main() {
 	cout << "Input size of array: ";
 	cin >> size;
 
-
 	int* array = new int[size];
 
 	init_random(array, size, 0, 5);
